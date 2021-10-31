@@ -5,7 +5,7 @@ int main(int argv, char** args)
 {
     SDL_Init(SDL_INIT_EVERYTHING);
 
-    SDL_Window *window = SDL_CreateWindow("hello", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 100, 100, 0);
+    SDL_Window *window = SDL_CreateWindow("hello", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 500, 500, 0);
     SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, 0);
 
     bool isRunning = true;
