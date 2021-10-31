@@ -1,0 +1,9 @@
+{
+  "cmake.configureSettings": {
+    "CMAKE_TOOLCHAIN_FILE": "/Users/keki/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  },
+  "files.associations": {
+    "*.html": "html",
+    "iostream": "cpp"
+  }
+}
